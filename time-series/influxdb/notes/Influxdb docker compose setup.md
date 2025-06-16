@@ -69,13 +69,3 @@ influxdb3 create token --admin
 ```bash
 curl -H "Authorization: Bearer <복사한_토큰>" http://localhost:8181/health
 ```
-
----
-
-## 🧠 요약
-
-| 항목                         | 설명              |
-| -------------------------- | --------------- |
-| `--admin`                  | 토큰 발급 시 필요한 플래그 |
-| `INFLUXDB3_AUTH_TOKEN`     | CLI 인증용 환경변수    |
-| `Authorization: Bearer` 헤더 | API 인증 방식       |
