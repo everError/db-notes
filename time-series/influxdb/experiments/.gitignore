@@ -1,0 +1,31 @@
+# Docker volume mounts
+influxdb_data/
+*.log
+
+# Docker Compose override files
+docker-compose.override.yml
+
+# OS or editor-specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# VSCode
+.vscode/
+.env
+
+# Logs and temp
+*.tmp
+*.pid
+
+# Telegraf output or debug
+telegraf.out
+telegraf.log
+
+# Python client script (if added)
+__pycache__/
+*.pyc
+
+token.txt

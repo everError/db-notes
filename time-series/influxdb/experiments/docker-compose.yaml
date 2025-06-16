@@ -1,0 +1,24 @@
+services:
+  influxdb:
+    image: influxdb:3-core
+    container_name: influxdb3
+    ports:
+      - 8181:8181
+    volumes:
+      - influxdb_data:/var/lib/influxdb3
+    networks:
+      - influxdb
+    command:
+      - influxdb3
+      - serve
+      - --node-id=node0
+      - --object-store=file
+      - --data-dir=/var/lib/influxdb3
+      - --log-filter=info
+
+networks:
+  influxdb:
+    driver: bridge
+
+volumes:
+  influxdb_data:
