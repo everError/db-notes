@@ -2,3 +2,4 @@
 
 - [InfluxDB](./time-series/influxdb/)
 - [ChromaDB](./vector/chroma/)
+- [SQL Server](./relational/sqlserver/)
