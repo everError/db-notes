@@ -1,0 +1,13 @@
+version: '3'
+services:
+  surrealdb:
+    image: surrealdb/surrealdb:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - surreal_data:/data
+    command: start --user root --pass root file:/data/surreal.db
+    user: root
+
+volumes:
+  surreal_data:

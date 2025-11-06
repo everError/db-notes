@@ -3,3 +3,4 @@
 - [InfluxDB](./time-series/influxdb/)
 - [ChromaDB](./vector/chroma/)
 - [SQL Server](./relational/sqlserver/)
+- [SurrealDB](./multi-model/SurrealDB/)
