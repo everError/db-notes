@@ -2,5 +2,6 @@
 
 - [InfluxDB](./time-series/influxdb/)
 - [ChromaDB](./vector/chroma/)
+- [Milvus](./vector/milvus/)
 - [SQL Server](./relational/sqlserver/)
 - [SurrealDB](./multi-model/SurrealDB/)
